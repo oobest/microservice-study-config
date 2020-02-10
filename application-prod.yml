@@ -1,12 +1,9 @@
-#spring: 
-#  cloud: 
-#    inetutils:
-      #preferredNetworks: 
-      #  - 10.0
-      #ignoredInterfaces:
-      # - docker0
-      #  - veth.*
+spring: 
+  cloud: 
+    inetutils:
+      preferredNetworks: 
+        - 10.0.0
 
-#eureka:
-#  instance:
-#    prefer-ip-address: true
+eureka:
+  instance:
+    prefer-ip-address: true
