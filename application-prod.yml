@@ -3,6 +3,9 @@ spring:
     inetutils:
       preferredNetworks: 
         - 10.0
+      ignoredInterfaces:
+        - docker0
+        - veth.*
 
 eureka:
   instance:
