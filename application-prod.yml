@@ -1,9 +1,9 @@
-#spring: 
-#  cloud: 
-#    inetutils:
-#      preferredNetworks: 
-#        - 10.0
+spring: 
+  cloud: 
+    inetutils:
+      preferredNetworks: 
+        - 10.0
 
-#eureka:
-#  instance:
-#    prefer-ip-address: true
+eureka:
+  instance:
+    prefer-ip-address: true
